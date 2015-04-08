@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="controller.RegPageController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="BlueRankBox" layoutX="164.0" layoutY="712.0" />
+      <TextField fx:id="GreenRankBox" layoutX="975.0" layoutY="707.0" />
+      <TextField fx:id="YellowRankBox" layoutX="744.0" layoutY="712.0" />
+      <TextField fx:id="RedRankBox" layoutX="501.0" layoutY="712.0" />
+      <Button fx:id="RegSubmitBtn" layoutX="448.0" layoutY="1012.0" mnemonicParsing="false" text="SUBMIT" />
+      <TextField fx:id="PassPhraseBox" layoutX="387.0" layoutY="936.0" promptText="Passphrase" />
+      <ImageView fitHeight="71.0" fitWidth="66.0" layoutX="204.0" layoutY="567.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/blue.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="66.0" layoutX="1055.0" layoutY="557.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/green.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="66.0" layoutX="797.0" layoutY="557.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/yellow.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="66.0" layoutX="550.0" layoutY="557.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/red.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="129.0" layoutY="457.0" prefHeight="55.0" prefWidth="238.0" text="Enter Color ranking (1 to 4)" />
+      <Label layoutX="112.0" layoutY="859.0" prefHeight="55.0" prefWidth="176.0" text="Enter PASSPHRASE" />
+      <TextField fx:id="UserNameBox" layoutX="367.0" layoutY="248.0" prefHeight="46.0" prefWidth="552.0" promptText="Name" />
+      <TextField fx:id="UserEmailBox" layoutX="367.0" layoutY="332.0" prefHeight="55.0" prefWidth="552.0" promptText="Email" />
+   </children>
+</AnchorPane>

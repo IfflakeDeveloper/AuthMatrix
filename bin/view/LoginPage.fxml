@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginPageController">
+   <children>
+      <ImageView id="colorGridBox2" fitHeight="66.0" fitWidth="71.0" layoutX="428.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/black.jpg" />
+         </image></ImageView>
+      <ImageView id="colorGridBox3" fitHeight="66.0" fitWidth="71.0" layoutX="595.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="colorGridBox4" fitHeight="66.0" fitWidth="71.0" layoutX="524.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+          <Image url="@../../res/red.jpg" />
+         </image>  
+      </ImageView>
+      <ImageView id="colorGridBox5" fitHeight="66.0" fitWidth="71.0" layoutX="872.0" layoutY="179.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="colorGridBox6" fitHeight="66.0" fitWidth="71.0" layoutX="943.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="colorGridBox7" fitHeight="66.0" fitWidth="71.0" layoutX="776.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/green.jpg" />
+         </image></ImageView>
+      <ImageView id="colorGridBox8" fitHeight="66.0" fitWidth="71.0" layoutX="701.0" layoutY="179.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/red.jpg" />
+         </image></ImageView>
+      <ImageView id="colorGridBox2" fitHeight="66.0" fitWidth="71.0" layoutX="357.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/red.jpg" />
+         </image></ImageView>
+      <TextField fx:id="colorAuthInput" layoutX="522.0" layoutY="484.0" />
+      <Button fx:id="colorAuthSubmitBtn" layoutX="738.0" layoutY="484.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="textAuthSubmitBtn" layoutX="771.0" layoutY="936.0" mnemonicParsing="false" text="Button" />
+      <TextField fx:id="textAuthInput" layoutX="522.0" layoutY="936.0" />
+      <Label layoutX="61.0" layoutY="120.0" prefHeight="31.0" prefWidth="236.0" text="COLOR AUTHENTICATION" />
+      <Label layoutX="61.0" layoutY="597.0" prefHeight="21.0" prefWidth="236.0" text="TEXT AUTHENTICATION" />
+      <GridPane fx:id="colorMatrix" layoutX="432.0" layoutY="290.0" prefHeight="163.0" prefWidth="439.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="3" GridPane.rowIndex="3" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="4" GridPane.columnIndex="4" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="3" GridPane.columnIndex="3" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="2" GridPane.columnIndex="2" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="2" GridPane.rowIndex="2" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="1" GridPane.columnIndex="1" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="4" GridPane.rowIndex="4" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="1" GridPane.rowIndex="1" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label prefHeight="21.0" prefWidth="86.0" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <GridPane fx:id="textualMatrix" layoutX="432.0" layoutY="618.0" prefHeight="284.0" prefWidth="566.0">
+         <children>
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="27.0" prefWidth="64.0" text="ToggleButton" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="43.0" prefWidth="65.0" text="ToggleButton" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="ToggleButton" GridPane.rowIndex="2" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="44.0" prefWidth="65.0" text="ToggleButton" GridPane.rowIndex="1" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="44.0" prefWidth="65.0" text="ToggleButton" GridPane.columnIndex="3" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="44.0" prefWidth="65.0" text="ToggleButton" GridPane.columnIndex="2" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="44.0" prefWidth="65.0" text="ToggleButton" GridPane.columnIndex="1" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="29.0" prefWidth="63.0" text="ToggleButton" GridPane.rowIndex="3" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="44.0" prefWidth="65.0" text="ToggleButton" GridPane.columnIndex="5" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="44.0" prefWidth="65.0" text="ToggleButton" GridPane.columnIndex="4" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="44.0" prefWidth="65.0" text="ToggleButton" GridPane.rowIndex="5" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="44.0" prefWidth="65.0" text="ToggleButton" GridPane.rowIndex="4" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="44.0" prefWidth="65.0" text="ToggleButton" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="44.0" prefWidth="65.0" text="ToggleButton" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <ToggleButton maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="44.0" prefWidth="65.0" text="ToggleButton" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="36.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <TextField fx:id="usernameBox" layoutX="514.0" layoutY="51.0" promptText="Username" />
+   </children>
+</AnchorPane>
