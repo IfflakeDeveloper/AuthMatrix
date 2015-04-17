@@ -1,5 +1,6 @@
 package driver;
 import javafx.application.Application;
+import javafx.application.Platform;
 import controller.*;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -8,12 +9,14 @@ import javafx.geometry.Rectangle2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.input.KeyCombination;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Modality;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import javafx.stage.WindowEvent;
 
 
 
@@ -42,10 +45,32 @@ public class AuthMatrix extends Application {
 		 primaryStage.setY(bounds.getMinY());
 		 primaryStage.setWidth(bounds.getWidth());
 		 primaryStage.setHeight(bounds.getHeight());
-		 
+		 primaryStage.initStyle(StageStyle.UNDECORATED);
+
+		 primaryStage.setFullScreenExitHint(new String(""));
+		 primaryStage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
 		 primaryStage.setTitle("Home Page");
-		// primaryStage.setFullScreen(true);
+		 primaryStage.setFullScreen(true);
+		 
+		 Platform.setImplicitExit(false);
+		 /*
+		 primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+			    @Override
+			    public void handle(WindowEvent event) {
+			
+			        event.consume();
+			    }});
+		 */
+		 primaryStage.setOnHiding(new EventHandler<WindowEvent>() {
+			    @Override
+			    public void handle(WindowEvent event) {
+			
+			        event.consume();
+			    }});
 		 primaryStage.setScene(scene);
+		 
 		 primaryStage.show();
 	    }
+	 
+	 
 }

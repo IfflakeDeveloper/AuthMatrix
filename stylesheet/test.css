@@ -1,0 +1,97 @@
+.backgroundlogin {
+   
+    -fx-background-image: url('../res/Originals/bghome6.jpg');
+}
+
+.backgroundhome {
+   
+    -fx-background-image: url('../res/Originals/bghome6.jpg');
+}
+
+
+
+.homepagepanebackground {
+   
+    -fx-background-image: url('../res/pane1.jpg');
+}
+
+
+.btn {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 2em;
+}
+.btn:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #708090, #708090);
+}
+
+
+.toggle {
+    -fx-padding: 8 12 8 12;
+    /*-fx-background-insets: 0,0 0 3 0, 0 0 4 0, 0 0 5 0;*/
+    -fx-background-radius: 4;
+    -fx-background-color: 
+    linear-gradient(from 0% 93% to 0% 100%, #eeeeee 0%, #eeeeee 100%),
+        #eeeeee,
+        #eeeeee,
+       
+        radial-gradient(center 50% 50%, radius 40%, #eeeeee, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+}
+.toggle:hover {
+   /* -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #25e658 0%, #1536db 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+*/
+-fx-background-color: 
+        linear-gradient(from 0% 100% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 0%, #ea7f4b, #c54e2c);
+}
+
+
+.newbtn {
+    
+    -fx-background-color: 
+ /*    linear-gradient(from 0% 100% to 0% 100%, #eeeeee 0%, #eeeeee 100%), */
+       
+        radial-gradient(center 50% 50%, radius 0.1%, #cccccc, #c0c0c0);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+    -fx-font-color: #c8c9c7;
+}
+.newbtn:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 100% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 0%, #708090, #708090);
+}
+
+.newbtn:selected:focused{
+    
+    -fx-background-color: 
+   linear-gradient(from 0% 100% to 0% 100%, #eeeeee 0%, #eeeeee 100%), 
+       
+       radial-gradient(center 50% 50%, radius 0.1%, #ffd700, #ffd700); 
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+    -fx-font-color: #c8c9c7;
+}

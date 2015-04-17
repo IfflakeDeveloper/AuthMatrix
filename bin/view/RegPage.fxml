@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1362.0" styleClass="backgroundlogin" stylesheets="@../../stylesheet/test.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegPageController">
+   <children>
+      <GridPane layoutX="70.0" layoutY="597.0" prefHeight="21.0" prefWidth="509.0">
+         <columnConstraints>
+            <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" minWidth="10.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <TextField fx:id="YellowRankBox" layoutX="320.0" layoutY="633.0" prefWidth="70.0" GridPane.columnIndex="2" />
+            <TextField fx:id="BlueRankBox" layoutX="54.0" layoutY="633.0" prefWidth="70.0" />
+            <TextField fx:id="GreenRankBox" layoutX="448.0" layoutY="633.0" prefWidth="70.0" GridPane.columnIndex="3" />
+            <TextField fx:id="RedRankBox" layoutX="190.0" layoutY="633.0" prefWidth="70.0" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <Button fx:id="RegSubmitBtn" layoutX="70.0" layoutY="644.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="210.0" styleClass="newbtn" stylesheets="@../../stylesheet/test.css" text="SUBMIT" />
+      <TextField fx:id="PassPhraseBox" layoutX="200.0" layoutY="416.0" prefHeight="30.0" prefWidth="240.0" promptText="******" />
+      <GridPane layoutX="71.0" layoutY="499.0" prefHeight="81.0" prefWidth="509.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fitHeight="71.0" fitWidth="66.0" layoutX="354.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+               <image>
+                  <Image url="@../../res/yellow.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="66.0" layoutX="173.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../../res/red.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="66.0" layoutX="59.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../res/blue.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="66.0" layoutX="525.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
+               <image>
+                  <Image url="@../../res/green.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <Label layoutX="70.0" layoutY="463.0" prefHeight="45.0" prefWidth="238.0" text="Enter Color ranking (1 to 4)" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label layoutX="70.0" layoutY="416.0" prefHeight="25.0" prefWidth="80.0" text="Passphrase" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <TextField fx:id="FirstNameBox" layoutX="200.0" layoutY="104.0" prefHeight="30.0" prefWidth="240.0" promptText="First Name" />
+      <TextField fx:id="UserEmailBox" layoutX="200.0" layoutY="356.0" prefHeight="30.0" prefWidth="240.0" promptText="Email" />
+      <Label layoutX="64.0" layoutY="14.0" text="Registration" textFill="#f2e9e9">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="110.0" text="Name" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="166.0" text="Username" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="237.0" text="Date of Birth" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="308.0" text="Phone " textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="363.0" text="Email ID" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="UserNameBox" layoutX="200.0" layoutY="162.0" prefHeight="30.0" prefWidth="240.0" />
+      <TextField fx:id="LastNameBox" layoutX="460.0" layoutY="104.0" prefHeight="30.0" prefWidth="240.0" promptText="Last Name" />
+      <TextField fx:id="UserPhoneBox" layoutX="200.0" layoutY="302.0" prefHeight="30.0" prefWidth="240.0" />
+      <Button fx:id="AvatarChooserBtn" layoutX="481.0" layoutY="356.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" styleClass="newbtn" stylesheets="@../../stylesheet/test.css" text="Upload Your Pic" />
+      <Separator layoutX="768.0" layoutY="110.0" orientation="VERTICAL" prefHeight="585.0" prefWidth="0.0" />
+      <Label layoutX="854.0" layoutY="102.0" prefHeight="35.0" prefWidth="189.0" text="Instructions" textFill="#e10e0e" underline="true">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="DobBox" layoutX="200.0" layoutY="230.0" prefHeight="30.0" prefWidth="240.0" />
+      <Label layoutX="810.0" layoutY="143.0" prefHeight="209.0" prefWidth="553.0" text="This authentication scheme contains some validation for successful registration.&#10;So, following rules must be followed during the registration.&#10;&#9;Username &#10;      •&#9;Capital letters A-Z, small letters a-z and digits from 0-9 are allowed.&#10;      •&#9;No Special characters are allowed.&#10;      •&#9;Example – Adam091&#10;&#9;Phone number &#10;      •&#9;It must include your country code.&#10;      •&#9;Example – +919123456789.Here, Country code is +91(India).&#10;&#9;Passphrase  *Important*&#10;      •&#9;Your passphrase should be of even number of characters.&#10;      •&#9;Same character must not repeat consecutively. But, your passphrase &#10;        can contain same character twice or thrice.&#10;      •&#9;Only capital letters A-Z and digits from 0-9 are allowed.&#10;         No special characters are allowed.&#10;      •&#9;Example – COAST951&#10;&#9;Color-ranking&#10;      •&#9;There are four colors viz. blue, red, yellow and green. You must rank &#10;      •&#9;These colors of your own choice.&#10;      •&#9;Rank these colors from 1 to 4.&#10;      •&#9;No letters and special characters are allowed.&#10;      •&#9;Example – Blue-3, Red-1, Green-4, Yellow-2.&#10;&#10;" textFill="#941d1d">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <ImageView fx:id="AvatarBox" fitHeight="150.0" fitWidth="200.0" layoutX="506.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/pane.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="vKeyboardArea" layoutX="800.0" layoutY="462.0" prefHeight="233.0" prefWidth="509.0" />
+   </children>
+</AnchorPane>

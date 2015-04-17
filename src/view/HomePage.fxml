@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane fx:id="HomePane" fx:controller="controller.HomePageController" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="1361.0" styleClass="backgroundhome" stylesheets="@../../stylesheet/test.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomePageController">
    <children>
-      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="763.0" prefWidth="1059.0">
-         <children>
-            <Button fx:id="LoginPageRedirectBtn" layoutX="270.0" layoutY="270.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="460.0" text="SIGN IN" />
-            <Button fx:id="RegPageRedirectBtn" layoutX="273.0" layoutY="449.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="475.0" text="New User?" />
-         </children>
-      </AnchorPane>
+      <Label layoutX="736.0" layoutY="29.0" prefHeight="62.0" prefWidth="261.0" text="AuthMatrix" textFill="#d71010">
+         <font>
+            <Font name="KaiTi" size="47.0" />
+         </font>
+      </Label>
+      <Separator layoutX="721.0" layoutY="106.0" opacity="0.61" prefHeight="0.0" prefWidth="644.0">
+         <effect>
+            <Glow />
+         </effect>
+      </Separator>
+      <Button fx:id="LoginPageRedirectBtn" layoutX="1059.0" layoutY="170.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="250.0" styleClass="btn" stylesheets="@../../stylesheet/test.css" text="Lock my PC Now!" />
+      <Button fx:id="RegPageRedirectBtn" layoutX="1059.0" layoutY="259.0" minHeight="40.0" minWidth="250.0" mnemonicParsing="false" styleClass="btn" stylesheets="@../../stylesheet/test.css" text="New User ?" />
+      <Label layoutX="721.0" layoutY="131.0" prefHeight="216.0" prefWidth="322.0" text="AuthMatrix is unique, simple yet &#10;sophisticated Lock Screen  over &#10;your desktop to keep you protected&#10;when you are not around. &#10;Got prying eyes around you?&#10;Use it TODAY&#10;Stop unwanted access to your computer.">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.26111111111111107" centerY="0.4714285714285714" radius="0.7">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#b51f1f" offset="0.03092783505154639" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+   
+  
    </children>
 </AnchorPane>
