@@ -47,7 +47,8 @@ public class Authorizer {
 				correctColorInput.append(colorMatrix[rowIndex-1][colIndex-1]);
 				
 				}
-			
+			dbc.close();
+			dbc=null;
 			if(correctColorInput.toString().equals(colorAuthInput)) return true;
 			else return false;
 			}
@@ -65,7 +66,6 @@ public class Authorizer {
 		
 		try{
 		Connection dbc = DBController.init();
-		//Statement stmt = dbc.createStatement();
 		PreparedStatement query= dbc.prepareStatement("SELECT PASSPHRASE FROM USERS WHERE USERNAME=?;");
 		query.setString(1, username);
 		ResultSet rs = query.executeQuery();
@@ -85,7 +85,7 @@ public class Authorizer {
 			
 		}
 		
-		
+		dbc.close(); dbc=null;
 		if((correctTextualInput.toString()).equals(textualAuthInput)) return true;
 		else return false;
 		

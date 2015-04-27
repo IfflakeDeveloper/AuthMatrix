@@ -1,1 +1,2 @@
-javaw -Xmx200m -jar %PathToAuthMatrix%
+cd %AuthMatrix%
+start javaw -Xmx200m -jar RunAuthMatrix.jar --lock=true

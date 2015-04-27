@@ -44,8 +44,8 @@ class AuthMatrixLocker{
 			
 			 Properties prop =new Properties();
 			   prop.load(new FileInputStream(currDir+"\\src\\extras\\yajsw-stable-11.11\\conf\\wrapper.conf"));
-			   prop.setProperty("wrapper.ntservice.name", "AuthLocker.java");
-			   prop.setProperty("wrapper.ntservice.displayname", "AuthLocker.java");
+			   prop.setProperty("wrapper.ntservice.name", "AuthLocker");
+			   prop.setProperty("wrapper.ntservice.displayname", "AuthLocker");
 			   prop.store(new FileOutputStream(currDir+"\\src\\extras\\yajsw-stable-11.11\\conf\\wrapper.conf"),null);
 			
 			   

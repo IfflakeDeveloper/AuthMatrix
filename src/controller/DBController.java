@@ -19,8 +19,7 @@ public class DBController {
         Class.forName("org.sqlite.JDBC");  
         connection = DriverManager.getConnection("jdbc:sqlite:src/model/AuthDb.db"); 
         statement = connection.createStatement();  
-        //statement.executeUpdate("INSERT INTO users VALUES (10,'aBHINAV','B@GM.COM','DDD','TODAY');");
-       
+        
     }
     
     catch(Exception e){ 

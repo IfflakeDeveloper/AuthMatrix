@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="extras/yajsw-stable-11/11/|extras/yajsw-stable-11.11/" kind="src" path="src"/>
+	<classpathentry excluding="elevate|extras/yajsw-stable-11.11/|extras/yajsw-stable-11/11/" kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/ABHINAV PC/ab/AuthMatrix/lib/controlsfx-8.20.8.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/ABHINAV PC/ab/AuthMatrix/lib/sqlite-jdbc-3.8.7.jar"/>
+	<classpathentry kind="lib" path="lib/controlsfx-8.20.8.jar"/>
+	<classpathentry kind="lib" path="lib/sqlite-jdbc-3.8.7.jar"/>
+	<classpathentry kind="lib" path="lib/jna-platform-4.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

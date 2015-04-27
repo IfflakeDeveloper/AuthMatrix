@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1369.0" styleClass="backgroundlogin" stylesheets="@../../stylesheet/test.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SettingsPageController">
+   <children>
+      <Label layoutX="29.0" layoutY="19.0" prefHeight="30.0" prefWidth="215.0" text="Settings Management" textFill="#b9b5c3">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutY="59.0" prefHeight="1024.0" prefWidth="452.0" styleClass="settingspane1" stylesheets="@../../stylesheet/test.css">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="160.0" layoutX="138.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../res/settings.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="130.0" layoutY="14.0" prefHeight="54.0" prefWidth="160.0" text="General" textFill="#b9b5c3">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="73.0" layoutY="272.0" prefHeight="17.0" prefWidth="149.0" text="Lock screen wallpaper" textFill="#eeebeb" underline="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <RadioButton layoutX="117.0" layoutY="315.0" mnemonicParsing="false" text="Default wallpaper" textFill="#eeebeb" />
+            <RadioButton layoutX="117.0" layoutY="350.0" mnemonicParsing="false" text="Choose wallpaper" textFill="#eeebeb" />
+            <Label layoutX="62.0" layoutY="558.0" text="Lock time Period" textFill="#f5f3f3" underline="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="138.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="452.0" layoutY="58.0" prefHeight="1024.0" prefWidth="452.0" styleClass="settingspane2" stylesheets="@../../stylesheet/test.css">
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="138.0" layoutX="157.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../res/general.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="55.0" layoutY="14.0" prefHeight="47.0" prefWidth="321.0" text="Application Settings" textFill="#b9b5c3">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="87.0" layoutY="274.0" prefHeight="17.0" prefWidth="114.0" text="Notification" textFill="#eeebeb" underline="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="87.0" layoutY="333.0" text="Notify after" textFill="#eeebeb" />
+            <TextField layoutX="163.0" layoutY="329.0" prefHeight="25.0" prefWidth="57.0" text="10" />
+            <Label layoutX="226.0" layoutY="334.0" text="minutes" textFill="#eeebeb" />
+            <Label layoutX="87.0" layoutY="403.0" text="Hot-Key" textFill="#f5f3f3" underline="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox layoutX="87.0" layoutY="461.0" mnemonicParsing="false" text="Press 'Ctrl+Shift+L' to lock your computer" textFill="#f8f8f8" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="904.0" layoutY="58.0" prefHeight="1024.0" prefWidth="464.0" styleClass="settingspane3" stylesheets="@../../stylesheet/test.css">
+         <children>
+            <ImageView fitHeight="92.0" fitWidth="90.0" layoutX="182.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../res/advanced1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="152.0" layoutY="20.0" text="Advanced" textFill="#b9b5c3">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="92.0" layoutY="269.0" text="User Specifications/Ease of use" textFill="#f2efef" underline="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <CheckBox layoutX="99.0" layoutY="342.0" mnemonicParsing="false" text="Enable color label" textFill="#f2eded" />
+            <CheckBox layoutX="99.0" layoutY="388.0" mnemonicParsing="false" text="Enable virtual Kepboard" textFill="#f2eded" />
+            <CheckBox layoutX="99.0" layoutY="429.0" mnemonicParsing="false" text="Enale Intersection assistance" textFill="#f2eded" />
+            <Button fx:id="SettingsApplyBtn" layoutX="-127.0" layoutY="759.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="174.0" styleClass="btn" stylesheets="@../../stylesheet/test.css" text="Apply" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="HomePageRedirectBtn" layoutX="1311.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="57.0" styleClass="settingsbutton" stylesheets="@../../stylesheet/test.css" />
+   </children>
+</AnchorPane>

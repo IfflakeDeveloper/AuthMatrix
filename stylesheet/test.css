@@ -1,13 +1,28 @@
+.backgroundhome{
+   
+    -fx-background-image: url('../res/Originals/bghome6.jpg');
+}
+
 .backgroundlogin {
    
     -fx-background-image: url('../res/Originals/bghome6.jpg');
 }
 
-.backgroundhome {
-   
-    -fx-background-image: url('../res/Originals/bghome6.jpg');
+.settingspane1{
+	
+	
+	-fx-background-color:rgb(18,47,122)
+	
 }
 
+.settingspane2{
+	
+	-fx-background-color:rgb(170,4,4)
+}
+.settingspane3{
+	
+	-fx-background-color:rgb(0,128,0)
+}
 
 
 .homepagepanebackground {
@@ -94,4 +109,27 @@
     -fx-font-weight: bold;
     -fx-font-size: 1.5em;
     -fx-font-color: #c8c9c7;
+}
+
+
+.settingsbutton {
+ -fx-background-color: 
+        
+        radial-gradient(center 50% 50%, radius 0%, #060000, #060000);
+  -fx-background-image: url('../res/homebutton.png');
+  -fx-background-size:60 50;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+}
+.settingsbutton:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 100% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 0%, #708090, #708090);
+}
+
+
+.settingsbutton:focused {
+  -fx-background-image: url('../res/homebutton1.png');
 }

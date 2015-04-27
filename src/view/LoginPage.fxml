@@ -299,12 +299,13 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Button fx:id="ExitButton" layoutX="449.0" layoutY="757.0" mnemonicParsing="false" prefHeight="115.0" prefWidth="498.0" text="EXIT THIS !">
+            <Button fx:id="ExitButton" layoutX="1855.0" layoutY="974.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="56.0">
                <font>
                   <Font name="System Bold Italic" size="42.0" />
                </font>
             </Button>
             <ImageView fx:id="AvatarBox" fitHeight="150.0" fitWidth="200.0" layoutX="704.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" />
+            <AnchorPane fx:id="vKeyboardArea" layoutX="874.0" layoutY="698.0" prefHeight="265.0" prefWidth="738.0" />
          </children>
       </AnchorPane>
    </content>

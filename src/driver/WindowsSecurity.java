@@ -1,21 +1,22 @@
 package driver;
 
 import java.awt.Robot;
-
 import javafx.stage.Stage;
 
-import javax.swing.JFrame;
 
 
 public class WindowsSecurity implements Runnable 
 {
   private Stage stage;
   private boolean running;
+  Thread thread;
 
   public WindowsSecurity(Stage yourFrame)
   {
     this.stage = yourFrame;
-    new Thread(this).start();
+    this.running=true;
+    thread = new Thread(this);
+    thread.start();
   }
 
   public void stop()
@@ -25,26 +26,27 @@ public class WindowsSecurity implements Runnable
 
   public void run() {
     try {
-      this.stage.setAlwaysOnTop(true);
-     // this.stage.setDefaultCloseOperation(Event.);
+      //stage.setAlwaysOnTop(true);
+     // stage.setDefaultCloseOperation(Event.);
       kill("explorer.exe"); // Kill explorer
       Robot robot = new Robot();
       int i = 0;
       while (running) {
          sleep(30L);
-         focus();
+        // focus();
          releaseKeys(robot);
          sleep(15L);
-         focus();
+       //  focus();
          if (i++ % 10 == 0) {
-             kill("taskmgr.exe");
+             kill("Taskmgr.exe");
          }
-         focus();
+         //focus();
          releaseKeys(robot);
       }
-      Runtime.getRuntime().exec("explorer.exe"); // Restart explorer
+      Runtime.getRuntime().exec("cmd /c explorer.exe"); // Restart explorer
+      
     } catch (Exception e) {
-
+    	e.printStackTrace();
     }
   }
 
@@ -73,6 +75,6 @@ public class WindowsSecurity implements Runnable
 
   private void focus() {
     
-    this.stage.requestFocus();
+    stage.requestFocus();
   }
 }

@@ -1,0 +1,145 @@
+WARNING|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:50|YAJSW: yajsw-stable-11.11
+WARNING|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:50|OS   : Windows 8.1/6.3/amd64
+WARNING|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:50|JVM  : Oracle Corporation/1.8.0_31/C:\Program Files\Java\jre1.8.0_31/64
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:50|ahessian jmx service bound to port 15002
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:52|spawned system tray icon process with pid 4684
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:52|working dir C:\Users\ABHINAV PC\ab\AuthMatrix
+WARNING|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:54|[id: 0xb3015cb3, /127.0.0.1:50093 => /127.0.0.1:15002] connected
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|started process with pid 7236
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|java.io.IOException: The handle is invalid
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at java.io.FileInputStream.readBytes(Native Method)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at java.io.FileInputStream.read(Unknown Source)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at java.io.BufferedInputStream.fill(Unknown Source)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at java.io.BufferedInputStream.read(Unknown Source)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at org.rzo.yajsw.io.TeeInputStream$Source.run(TeeInputStream.java:221)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at java.lang.Thread.run(Unknown Source)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|[INFO] StandardFileSystemManager - Using "C:\Users\ABHINA~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|java.lang.IllegalAccessException: Class org.rzo.yajsw.app.WrapperJVMMain can not access a member of class extras.AuthMatrixLocker with modifiers "public static"
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at java.lang.reflect.AccessibleObject.slowCheckMemberAccess(Unknown Source)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:53)
+INFO|7236/0|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:36)
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|restart process due to default exit code rule
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|restart internal RUNNING
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:55|stopping process with pid/timeout 7236 45000
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:44:56|process exit code: 999
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:01|working dir C:\Users\ABHINAV PC\ab\AuthMatrix
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|started process with pid 1972
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|java.io.IOException: The handle is invalid
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at java.io.FileInputStream.readBytes(Native Method)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at java.io.FileInputStream.read(Unknown Source)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at java.io.BufferedInputStream.fill(Unknown Source)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at java.io.BufferedInputStream.read(Unknown Source)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at org.rzo.yajsw.io.TeeInputStream$Source.run(TeeInputStream.java:221)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at java.lang.Thread.run(Unknown Source)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|[INFO] StandardFileSystemManager - Using "C:\Users\ABHINA~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|java.lang.IllegalAccessException: Class org.rzo.yajsw.app.WrapperJVMMain can not access a member of class extras.AuthMatrixLocker with modifiers "public static"
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at java.lang.reflect.AccessibleObject.slowCheckMemberAccess(Unknown Source)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:53)
+INFO|1972/1|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:36)
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|restart process due to default exit code rule
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|restart internal RUNNING
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:03|stopping process with pid/timeout 1972 45000
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:04|process exit code: 999
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:09|working dir C:\Users\ABHINAV PC\ab\AuthMatrix
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|started process with pid 7624
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|java.io.IOException: The handle is invalid
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at java.io.FileInputStream.readBytes(Native Method)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at java.io.FileInputStream.read(Unknown Source)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at java.io.BufferedInputStream.fill(Unknown Source)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at java.io.BufferedInputStream.read(Unknown Source)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at org.rzo.yajsw.io.TeeInputStream$Source.run(TeeInputStream.java:221)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at java.lang.Thread.run(Unknown Source)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|[INFO] StandardFileSystemManager - Using "C:\Users\ABHINA~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|java.lang.IllegalAccessException: Class org.rzo.yajsw.app.WrapperJVMMain can not access a member of class extras.AuthMatrixLocker with modifiers "public static"
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at java.lang.reflect.AccessibleObject.slowCheckMemberAccess(Unknown Source)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:53)
+INFO|7624/2|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:36)
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|restart process due to default exit code rule
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|restart internal RUNNING
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:11|stopping process with pid/timeout 7624 45000
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:12|process exit code: 999
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:17|working dir C:\Users\ABHINAV PC\ab\AuthMatrix
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|started process with pid 2260
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|java.io.IOException: The handle is invalid
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at java.io.FileInputStream.readBytes(Native Method)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at java.io.FileInputStream.read(Unknown Source)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at java.io.BufferedInputStream.fill(Unknown Source)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at java.io.BufferedInputStream.read(Unknown Source)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at org.rzo.yajsw.io.TeeInputStream$Source.run(TeeInputStream.java:221)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at java.lang.Thread.run(Unknown Source)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|[INFO] StandardFileSystemManager - Using "C:\Users\ABHINA~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|java.lang.IllegalAccessException: Class org.rzo.yajsw.app.WrapperJVMMain can not access a member of class extras.AuthMatrixLocker with modifiers "public static"
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at java.lang.reflect.AccessibleObject.slowCheckMemberAccess(Unknown Source)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:53)
+INFO|2260/3|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:36)
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|restart process due to default exit code rule
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|restart internal RUNNING
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:18|stopping process with pid/timeout 2260 45000
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:19|process exit code: 999
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:24|working dir C:\Users\ABHINAV PC\ab\AuthMatrix
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:25|script takes too long -> interrupt
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|started process with pid 8000
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|java.io.IOException: The handle is invalid
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at java.io.FileInputStream.readBytes(Native Method)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at java.io.FileInputStream.read(Unknown Source)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at java.io.BufferedInputStream.fill(Unknown Source)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at java.io.BufferedInputStream.read(Unknown Source)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at org.rzo.yajsw.io.TeeInputStream$Source.run(TeeInputStream.java:221)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at java.lang.Thread.run(Unknown Source)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|[INFO] StandardFileSystemManager - Using "C:\Users\ABHINA~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|java.lang.IllegalAccessException: Class org.rzo.yajsw.app.WrapperJVMMain can not access a member of class extras.AuthMatrixLocker with modifiers "public static"
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at java.lang.reflect.AccessibleObject.slowCheckMemberAccess(Unknown Source)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:53)
+INFO|8000/4|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:36)
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|restart process due to default exit code rule
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|restart internal RUNNING
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:26|stopping process with pid/timeout 8000 45000
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:27|process exit code: 999
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:32|working dir C:\Users\ABHINAV PC\ab\AuthMatrix
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|started process with pid 7624
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|java.io.IOException: The handle is invalid
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at java.io.FileInputStream.readBytes(Native Method)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at java.io.FileInputStream.read(Unknown Source)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at java.io.BufferedInputStream.fill(Unknown Source)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at java.io.BufferedInputStream.read(Unknown Source)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at org.rzo.yajsw.io.TeeInputStream$Source.run(TeeInputStream.java:221)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at java.lang.Thread.run(Unknown Source)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|[INFO] StandardFileSystemManager - Using "C:\Users\ABHINA~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|java.lang.IllegalAccessException: Class org.rzo.yajsw.app.WrapperJVMMain can not access a member of class extras.AuthMatrixLocker with modifiers "public static"
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at java.lang.reflect.AccessibleObject.slowCheckMemberAccess(Unknown Source)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at org.rzo.yajsw.app.WrapperJVMMain.executeMain(WrapperJVMMain.java:53)
+INFO|7624/5|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:36)
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|too many restarts 
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|process not in state RUNNING -> Delaying stop
+INFO|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:33|Shutting down Wrapper
+WARNING|wrapper|C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe|15-04-20 16:45:34|[id: 0xb3015cb3, /127.0.0.1:50093 => /127.0.0.1:15002] exception java.io.IOException: An existing connection was forcibly closed by the remote host

@@ -22,7 +22,7 @@
             <Glow />
          </effect>
       </Separator>
-      <Button fx:id="LoginPageRedirectBtn" layoutX="1059.0" layoutY="170.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="250.0" styleClass="btn" stylesheets="@../../stylesheet/test.css" text="Lock my PC Now!" />
+      <Button fx:id="LoginPageRedirectBtn" layoutX="1059.0" layoutY="170.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="250.0" styleClass="btn" stylesheets="@../../stylesheet/test.css" text="Lock my PC!" />
       <Button fx:id="RegPageRedirectBtn" layoutX="1059.0" layoutY="259.0" minHeight="40.0" minWidth="250.0" mnemonicParsing="false" styleClass="btn" stylesheets="@../../stylesheet/test.css" text="New User ?" />
       <Label layoutX="721.0" layoutY="131.0" prefHeight="216.0" prefWidth="322.0" text="AuthMatrix is unique, simple yet &#10;sophisticated Lock Screen  over &#10;your desktop to keep you protected&#10;when you are not around. &#10;Got prying eyes around you?&#10;Use it TODAY&#10;Stop unwanted access to your computer.">
          <font>
@@ -38,6 +38,8 @@
             </RadialGradient>
          </textFill>
       </Label>
+      <Button fx:id="SettingsPageRedirectBtn" layoutX="1065.0" layoutY="514.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="250.0" styleClass="btn" stylesheets="@../../stylesheet/test.css" text="Settings" />
+      <Button fx:id="ChangeProfileRedirectBtn" layoutX="1059.0" layoutY="356.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="250.0" styleClass="btn" stylesheets="@../../stylesheet/test.css" text="Edit Profile" />
    
   
    </children>

@@ -6,7 +6,6 @@ package driver;
 
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
-
 import javafx.stage.Stage;
 
 public class AltTabStopper implements Runnable
